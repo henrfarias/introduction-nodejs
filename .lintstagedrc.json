@@ -1,6 +1,6 @@
 {
   "*.ts": [
-    "npx eslint --no-error-on-unmatched-pattern 'src/**' --fix",
+    "npx eslint 'src/**' --fix",
     "npm run test:staged"
   ]
 }
