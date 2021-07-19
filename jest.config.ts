@@ -3,7 +3,7 @@ import type { Config } from '@jest/types'
 const config: Config.InitialOptions = {
   verbose: true,
   roots: ['./src'],
-  collectCoverage: true,
+  collectCoverage: false,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
