@@ -8,7 +8,7 @@
     "test:unit": "npm test --watch -c jest-unit-config.js",
     "test:integration": "npm test --watch --runInBand -c jest-integration-config.js",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
-    "test:ci": "npm test -- --coverage --watchAll"
+    "test:ci": "jest --noStackTrace --coverage"
   },
   "keywords": [],
   "author": "",
